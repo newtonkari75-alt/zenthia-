@@ -14,7 +14,6 @@
     <meta name="description" content="Order Zenthia™ Advanced Metabolic Support in the UK & Ireland. Natural formula for appetite control and energy. Get 39% OFF today. 60-Day Money-Back Guarantee.">
     <meta name="keywords" content="Zenthia, Zenthia metabolic support, Zenthia UK, Zenthia Ireland, buy Zenthia online, metabolism supplement UK">
     
-    <!-- CANONICAL & HREFLANG -->
     <link rel="canonical" href="https://zenthia.vercel.app/">
     <link rel="alternate" href="https://zenthia.vercel.app/" hreflang="en-GB">
     <link rel="alternate" href="https://zenthia.vercel.app/" hreflang="en-IE">
@@ -27,14 +26,12 @@
     <meta property="og:description" content="Zenthia™ rebalances your metabolism where diets don't reach. Official UK & IE Store.">
     <meta property="og:image" content="https://zenthia.knownwalk.com/images/zenthia-logo.svg">
     <meta property="og:site_name" content="Zenthia Official Store">
-    <meta property="product:price:amount" content="49.00">
-    <meta property="product:price:currency" content="GBP">
 
     <!-- ROBOTS -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
     <!-- ============================================== -->
-    <!-- 2. STRUCTURED DATA (JSON-LD) - GOOGLE RICH SNIPPETS -->
+    <!-- 2. STRUCTURED DATA (JSON-LD) -->
     <!-- ============================================== -->
     <script type="application/ld+json">
     {
@@ -49,40 +46,16 @@
           "sku": "ZEN-METAB-UKIE",
           "offers": {
             "@type": "AggregateOffer",
-            "offerCount": "3",
             "lowPrice": "34.00",
             "highPrice": "59.00",
             "priceCurrency": "GBP",
-            "availability": "https://schema.org/InStock",
-            "areaServed": ["GB", "IE"],
-            "url": "https://zenthia.vercel.app/"
+            "availability": "https://schema.org/InStock"
           },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
             "reviewCount": "12450"
           }
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How long does delivery take for Zenthia in the UK and Ireland?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Delivery typically takes 2–4 business days for both the United Kingdom and Ireland via UPS and Royal Mail."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is there a money-back guarantee for Zenthia?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, Zenthia comes with an official 60-Day Money-Back Guarantee for all unused and sealed bottles."
-              }
-            }
-          ]
         }
       ]
     }
@@ -104,18 +77,16 @@
     
     <style>
         body { font-family: 'Inter', sans-serif; top: 0 !important; }
-        .text-brand-black { color: #000000; }
-        .bg-brand-black { background-color: #000000; }
         
-        /* Identidade Visual Zenthia Principal: #0C3449 */
+        /* Brand Identity Color: #0C3449 */
         .text-brand-accent { color: #0C3449; }
         .bg-brand-accent { background-color: #0C3449; }
         .border-brand-accent { border-color: #0C3449; }
         .hover-bg-brand-accent:hover { background-color: #082535; transition: background-color 0.3s ease; }
         
-        /* Novas Cores de Interface */
-        .bg-brand-ice { background-color: #F0F6F9; } /* Cor azulzinha pedida */
-        .bg-brand-footer { background-color: #0C3449; } /* Rodapé na cor oficial */
+        /* Updated Interface Colors */
+        .bg-brand-ice { background-color: #F0F6F9; } /* Ice Blue */
+        .bg-brand-footer { background-color: #0C3449; } /* Dark Blue Footer */
         
         .check-accent { color: #0C3449; }
         html { scroll-behavior: smooth; }
@@ -141,112 +112,115 @@
     <div class="w-full lg:max-w-7xl mx-auto bg-white min-h-screen lg:min-h-0 lg:rounded-2xl lg:shadow-2xl lg:my-8 flex flex-col relative transition-all">
         
         <header id="top-nav" class="flex flex-col">
-            <!-- STICKY HEADER INFOS -->
+            <!-- STICKY HEADER -->
             <div class="sticky top-0 z-50 w-full bg-white shadow-md lg:rounded-t-2xl overflow-hidden">
-                <!-- TOPBAR (Updated to #F0F6F9) -->
+                <!-- TOPBAR (#F0F6F9) -->
                 <div class="bg-brand-ice py-2 px-2 border-b border-gray-200 w-full relative">
                     <div class="flex justify-center items-center gap-2 md:gap-8">
                         <div class="flex items-center gap-1.5">
-                            <i class="fas fa-truck text-xs text-brand-black"></i>
-                            <span class="text-[10px] sm:text-xs font-bold text-brand-black uppercase tracking-tight whitespace-nowrap">FREE SHIPPING</span>
+                            <i class="fas fa-truck text-xs text-brand-accent"></i>
+                            <span class="text-[10px] sm:text-xs font-bold text-brand-accent uppercase tracking-tight whitespace-nowrap">FREE SHIPPING</span>
                         </div>
                         <div class="hidden sm:block w-px h-3 bg-gray-300"></div>
                         <div class="flex items-center gap-1.5">
-                            <i class="fas fa-wallet text-xs text-brand-black"></i>
-                            <span class="text-[10px] sm:text-xs font-bold text-brand-black uppercase tracking-tight whitespace-nowrap">60-DAY GUARANTEE</span>
+                            <i class="fas fa-wallet text-xs text-brand-accent"></i>
+                            <span class="text-[10px] sm:text-xs font-bold text-brand-accent uppercase tracking-tight whitespace-nowrap">60-DAY GUARANTEE</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-brand-black text-white text-center py-2.5 px-2 w-full">
+                <!-- OFFER BAR (Updated from black to #0C3449) -->
+                <div class="bg-brand-accent text-white text-center py-2.5 px-2 w-full">
                     <span class="text-[11px] sm:text-xs font-black uppercase tracking-wide">
                         SPECIAL LIMITED-TIME OFFER | 39% DISCOUNT APPLIED
                     </span>
                 </div>
 
-                <div class="pt-4 pb-4 px-5 md:px-8 bg-white flex justify-center">
+                <div class="pt-4 pb-4 px-5 md:px-8 bg-white flex justify-center border-b border-gray-50">
                     <div class="flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
                         <img src="images/zenthia-logo.svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" alt="Zenthia Official Logo" class="h-10 md:h-12 w-auto object-contain">
-                        <span style="display:none" class="text-3xl font-black text-brand-black tracking-tighter uppercase">ZEN<span class="text-brand-accent">THIA</span></span>
+                        <span style="display:none" class="text-3xl font-black text-brand-accent tracking-tighter uppercase">ZEN<span class="text-brand-accent opacity-80">THIA</span></span>
                     </div>
                 </div>
             </div>
         </header>
 
         <main id="main-content">
-            <!-- PRIMARY SECTION (MOBILE ORDER: Title -> Image -> Text -> CTA) -->
-            <article class="px-5 pt-6 pb-2 lg:px-12 lg:py-12 flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <!-- PRIMARY SECTION -->
+            <!-- Mobile: Title -> Image -> Text -> Button -->
+            <!-- Desktop: Image(Left) Title/Text(Right) -->
+            <article class="px-5 pt-6 pb-2 lg:px-12 lg:py-12 flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                 
-                <!-- MOBILE BLOCK 1: H1 SEO HEADLINE -->
-                <div class="order-1 lg:order-2 lg:col-span-7 flex flex-col text-center lg:text-left w-full">
+                <!-- 1. TITLE & RATING (Order 1 on mobile, Col-span-7 on desktop) -->
+                <div class="order-1 lg:order-2 lg:col-span-7 flex flex-col text-center lg:text-left w-full lg:pt-4">
                     <div class="flex items-center justify-center lg:justify-start mb-2">
                         <div class="flex text-brand-accent text-lg gap-0.5">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <span class="ml-2 text-gray-600 font-bold text-xs lg:text-sm">Rated Excellent | Official Zenthia™ Reviews</span>
+                        <span class="ml-2 text-gray-600 font-bold text-xs lg:text-sm">Rated Excellent | Verified Zenthia™ Reviews</span>
                     </div>
 
-                    <h1 class="text-3xl lg:text-4xl font-black leading-tight text-brand-black mb-4">
+                    <h1 class="text-3xl lg:text-5xl font-black leading-tight text-brand-accent mb-4">
                         If diet and exercise were enough, you would already be thin.
                     </h1>
                 </div>
 
-                <!-- MOBILE BLOCK 2: HERO IMAGE -->
-                <div class="order-2 lg:order-1 lg:col-span-5 w-full">
+                <!-- 2. PHOTO (Order 2 on mobile, Col-span-5 on desktop) -->
+                <div class="order-2 lg:order-1 lg:col-span-5 lg:row-span-2 w-full lg:sticky lg:top-64">
                     <div id="product-media" class="relative w-full overflow-hidden bg-transparent text-center flex items-center justify-center">
                         <img src="images/zenthia3.png" class="max-w-full h-auto object-contain" alt="Zenthia™ Advanced Metabolic Support Supplement Bottle">
                     </div>
                 </div>
 
-                <!-- MOBILE BLOCK 3: SALES CONTENT -->
+                <!-- 3. SALES CONTENT (Order 3 on mobile, Col-span-7 on desktop) -->
                 <div class="order-3 lg:order-3 lg:col-span-7 flex flex-col text-center lg:text-left w-full">
                     <div class="text-lg text-gray-500 font-medium leading-relaxed mb-6 space-y-4">
-                        <p><strong>The simple truth:</strong> After 30, the body changes.</p>
+                        <p><strong class="text-brand-accent">The simple truth:</strong> After 30, the body changes.</p>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-md mx-auto lg:mx-0">
-                            <div class="flex items-center gap-2"><i class="fas fa-minus-circle text-brand-accent opacity-50"></i> Metabolism slows down.</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-minus-circle text-brand-accent opacity-50"></i> Gut microbiota balance shifts.</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-minus-circle text-brand-accent opacity-50"></i> Cravings increase.</div>
+                            <div class="flex items-center gap-2 text-brand-accent font-semibold"><i class="fas fa-minus-circle opacity-50"></i> Metabolism slows down.</div>
+                            <div class="flex items-center gap-2 text-brand-accent font-semibold"><i class="fas fa-minus-circle opacity-50"></i> Gut balance shifts.</div>
+                            <div class="flex items-center gap-2 text-brand-accent font-semibold"><i class="fas fa-minus-circle opacity-50"></i> Cravings increase.</div>
                         </div>
-                        <p class="text-brand-black">Break the infinite cycle of <span class="text-brand-accent font-bold italic">attempt → frustration → giving up.</span></p>
+                        <p class="text-gray-900">Break the infinite cycle of <span class="text-brand-accent font-bold italic">attempt → frustration → giving up.</span></p>
                     </div>
 
-                    <div class="text-base text-gray-600 mb-6 leading-relaxed bg-blue-50/50 p-4 rounded-xl border-l-4 border-brand-accent text-left">
-                        <h2 class="text-lg font-bold text-brand-accent mb-1">How Zenthia™ Works</h2>
+                    <div class="text-base text-gray-600 mb-6 leading-relaxed bg-blue-50/50 p-5 rounded-xl border-l-4 border-brand-accent text-left shadow-sm">
+                        <h2 class="text-lg font-bold text-brand-accent mb-1">The Zenthia™ Advantage</h2>
                         Zenthia acts where diets don't reach: in gut microbiota balance and metabolic response — helping your body stop resisting progress.
                     </div>
 
-                    <p class="text-lg font-black text-brand-black mb-6 uppercase tracking-tight">It’s not willpower. <span class="text-brand-accent">It’s Zenthia™ biology.</span></p>
+                    <p class="text-xl font-black text-brand-accent mb-6 uppercase tracking-tight">It’s not willpower. <span class="border-b-4 border-brand-accent">It’s biology.</span></p>
 
-                    <ul class="space-y-3 lg:space-y-2 mb-8 text-left mx-auto lg:mx-0 inline-block lg:block">
+                    <ul class="space-y-3 lg:space-y-4 mb-8 text-left mx-auto lg:mx-0 inline-block lg:block">
                         <li class="flex items-start gap-3">
                             <div class="mt-0.5 flex-shrink-0"><i class="fas fa-check-circle text-xl check-accent"></i></div>
-                            <span class="text-gray-700 text-base"><strong>Daily metabolic support</strong></span>
+                            <span class="text-gray-800 text-base"><strong>Daily metabolic support</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
                             <div class="mt-0.5 flex-shrink-0"><i class="fas fa-check-circle text-xl check-accent"></i></div>
-                            <span class="text-gray-700 text-base"><strong>Natural appetite balance</strong></span>
+                            <span class="text-gray-800 text-base"><strong>Natural appetite balance</strong></span>
                         </li>
                         <li class="flex items-start gap-3">
                             <div class="mt-0.5 flex-shrink-0"><i class="fas fa-check-circle text-xl check-accent"></i></div>
-                            <span class="text-gray-700 text-base"><strong>Sustained daily energy</strong></span>
+                            <span class="text-gray-800 text-base"><strong>Sustained daily energy</strong></span>
                         </li>
                     </ul>
 
-                    <p class="text-base lg:text-lg font-bold text-gray-500 italic mb-8 lg:mb-0">The solution you've been waiting for.</p>
+                    <p class="text-base lg:text-lg font-bold text-gray-400 italic mb-8">If you've tried everything... maybe the problem was never you.</p>
                 </div>
 
-                <!-- MOBILE BLOCK 4: PRIMARY CTA -->
+                <!-- 4. BUTTON (Order 4 on mobile, Hidden on desktop to preserve design) -->
                 <div class="order-4 lg:hidden w-full pb-8">
                     <button onclick="scrollToSelector()" class="bg-brand-accent text-white w-full py-5 rounded-xl font-black text-lg shadow-lg pulse-accent uppercase tracking-wide">
                         👉 Claim My 39% Zenthia Discount
                     </button>
                     <p class="text-[9px] text-gray-400 text-center mt-3 uppercase font-bold">
-                        Results may vary • Risk-Free 60-Day Guarantee
+                        Results may vary • Official UK & IE Store
                     </p>
                 </div>
             </article>
 
-            <!-- SECTION 2: CONVERSION OPTIONS (Updated with #F0F6F9 Background) -->
+            <!-- SECTION 2: BUYING OPTIONS -->
             <section id="cta-options" class="px-5 pb-16 lg:px-12 pt-12 border-t border-blue-100 bg-brand-ice">
                 <div class="max-w-6xl mx-auto">
                     <header class="text-center mb-10">
@@ -261,8 +235,8 @@
                             </div>
                             
                             <div class="p-6 lg:p-8 flex-1 flex flex-col text-center lg:text-left">
-                                <h3 class="text-2xl lg:text-3xl font-black text-brand-black mb-1">SAVE 39% TODAY</h3>
-                                <p class="text-brand-accent font-bold text-sm mb-4">DIRECT TO SECURE CHECKOUT</p>
+                                <h3 class="text-2xl lg:text-3xl font-black text-brand-accent mb-1">SAVE 39% TODAY</h3>
+                                <p class="text-gray-500 font-bold text-sm mb-4">DIRECT TO SECURE CHECKOUT</p>
                                 
                                 <ul class="space-y-3 mb-8 text-left">
                                     <li class="flex items-center gap-3 text-sm text-gray-700 font-medium">
@@ -277,11 +251,11 @@
                                 </ul>
                                 
                                 <div class="mt-auto">
-                                    <a href="https://www.knownwalk.com/2JCZKZ1X/224RLGXW/" class="bg-brand-accent hover:bg-brand-accent/90 text-white w-full py-4 rounded-xl font-black text-center block transition-all shadow-lg pulse-accent">
-                                        👉 YES, CLAIM MY DISCOUNT NOW
+                                    <a href="https://www.knownwalk.com/2JCZKZ1X/224RLGXW/" class="bg-brand-accent hover:opacity-90 text-white w-full py-4 rounded-xl font-black text-center block transition-all shadow-lg pulse-accent uppercase">
+                                        👉 Claim My Discount Now
                                     </a>
                                     <p class="text-[9px] text-gray-400 text-center mt-3 font-medium uppercase italic">
-                                        Results may vary from person to person.
+                                        Official Website • Direct Shipping
                                     </p>
                                 </div>
                             </div>
@@ -290,7 +264,7 @@
                         <!-- OPTION 2 — LEARN MORE (QUIZ) -->
                         <div class="bg-white rounded-2xl shadow-lg border border-gray-200 flex flex-col h-full transform transition-transform hover:scale-[1.01]">
                             <div class="p-6 lg:p-8 flex-1 flex flex-col text-center lg:text-left">
-                                <h3 class="text-xl lg:text-2xl font-black text-brand-black mb-1">OPTION 2 — PERSONAL QUIZ</h3>
+                                <h3 class="text-xl lg:text-2xl font-black text-brand-accent mb-1">OPTION 2 — PERSONAL QUIZ</h3>
                                 <p class="text-gray-500 font-bold text-sm mb-4">LEARN BEFORE BUYING</p>
                                 
                                 <ul class="space-y-3 mb-8 text-left">
@@ -306,8 +280,8 @@
                                 </ul>
                                 
                                 <div class="mt-auto">
-                                    <a href="https://www.knownwalk.com/2JCZKZ1X/224RLGXW/?uid=5017" class="bg-gray-100 hover:bg-gray-200 text-brand-black w-full py-4 rounded-xl font-black text-center block transition-all">
-                                        👉 TAKE THE 60-SECOND QUIZ
+                                    <a href="https://www.knownwalk.com/2JCZKZ1X/224RLGXW/?uid=5017" class="bg-gray-100 hover:bg-gray-200 text-brand-accent w-full py-4 rounded-xl font-black text-center block transition-all uppercase">
+                                        👉 Take the 60-Second Quiz
                                     </a>
                                     <p class="text-[9px] text-gray-400 text-center mt-3 font-medium uppercase italic">
                                         Personalised results based on your body type.
@@ -320,7 +294,7 @@
                 </div>
             </section>
 
-            <!-- FAQ SECTION (SEO CONTENT) -->
+            <!-- FAQ SECTION -->
             <section class="px-5 py-16 lg:px-12 bg-white border-b border-gray-100">
                 <div class="max-w-4xl mx-auto">
                     <h2 class="text-3xl font-black text-center text-brand-accent mb-12 uppercase tracking-tight">Zenthia™ Frequently Asked Questions</h2>
@@ -332,7 +306,7 @@
                                 <i class="fas fa-chevron-down transition-transform"></i>
                             </summary>
                             <div class="px-5 pb-5 text-gray-600 text-sm leading-relaxed">
-                                Our shipping partners (UPS and Royal Mail) typically deliver within <strong>2–4 business days</strong> for the United Kingdom and Ireland. Orders placed before 10 AM CEST are processed the same day.
+                                Our shipping partners (UPS and Royal Mail) typically deliver within <strong>2–4 business days</strong>.
                             </div>
                         </details>
 
@@ -342,17 +316,17 @@
                                 <i class="fas fa-chevron-down transition-transform"></i>
                             </summary>
                             <div class="px-5 pb-5 text-gray-600 text-sm leading-relaxed">
-                                If you are not fully satisfied with your results, you can return the item within 60 days of receipt. The product must be returned in its original packaging, unopened and unused.
+                                If you are not fully satisfied, you can return the item within 60 days. The product must be in its original packaging, unopened and unused.
                             </div>
                         </details>
 
                         <details class="faq-item group bg-brand-ice rounded-xl overflow-hidden border border-blue-100">
                             <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-brand-accent select-none">
-                                Is Zenthia available in local stores?
+                                Is Zenthia suitable for vegans?
                                 <i class="fas fa-chevron-down transition-transform"></i>
                             </summary>
                             <div class="px-5 pb-5 text-gray-600 text-sm leading-relaxed">
-                                Zenthia™ Advanced Metabolic Support is exclusively available through our official online store to ensure you receive the genuine product and the maximum 39% discount.
+                                Yes, Zenthia is 100% Vegan, Non-GMO, and Gluten-Free.
                             </div>
                         </details>
                     </div>
@@ -360,15 +334,15 @@
             </section>
         </main>
 
-        <!-- COMPLIANCE FOOTER (Background #0C3449) -->
-        <footer class="bg-brand-footer border-t border-white/10 pt-12 pb-10 px-5 mt-auto">
-            <div class="max-w-5xl mx-auto flex flex-col items-center text-center text-white">
+        <!-- COMPLIANCE FOOTER -->
+        <footer class="bg-brand-footer border-t border-white/10 pt-12 pb-10 px-5 mt-auto text-white">
+            <div class="max-w-5xl mx-auto flex flex-col items-center text-center">
                 <div class="mb-6 opacity-90">
                      <img src="images/zenthia-logo.svg" alt="Zenthia Official Logo" class="h-8 md:h-10 w-auto invert brightness-0 grayscale mx-auto">
                 </div>
 
-                <div class="mb-8 px-4 py-2 border border-white/30 rounded-full text-xs text-white/80 font-semibold tracking-wide bg-white/5">
-                    <i class="fas fa-check-circle mr-2 text-blue-300"></i> AUTHORISED ZENTHIA™ DISTRIBUTOR
+                <div class="mb-8 px-4 py-2 border border-white/30 rounded-full text-xs text-white/80 font-semibold tracking-wide bg-white/5 uppercase">
+                    <i class="fas fa-check-circle mr-2 text-blue-300"></i> Authorised Zenthia™ Distributor
                 </div>
 
                 <nav class="flex flex-wrap justify-center gap-x-6 gap-y-3 mb-10 text-xs text-white/70 font-medium">
@@ -379,7 +353,7 @@
                     <button onclick="openModal('contact')" class="hover:text-white hover:underline transition">Contact Us</button>
                 </nav>
 
-                <!-- FINAL BLINDAGEM BLOCK (GOOGLE COMPLIANCE) -->
+                <!-- FINAL BLINDAGEM BLOCK -->
                 <div class="text-center text-[10px] text-white/50 leading-relaxed max-w-4xl space-y-6">
                     <p>
                         <strong>FitSmart B.V.</strong> | Stadhouderskade 5, 1054 ES Amsterdam, Netherlands <br>
@@ -420,11 +394,11 @@
         }
 
         const modalContent = {
-            'privacy': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Privacy Policy</h2><p class="mb-4 text-sm text-gray-600">Data Controller: FitSmart B.V., Amsterdam, Netherlands. Handled in strict accordance with GDPR (EU/UK).</p>`,
-            'terms': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Terms & Conditions</h2><p class="mb-4 text-sm text-gray-600">FitSmart B.V. is your contractual partner. Dutch law applies to all transactions.</p>`,
-            'shipping': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Shipping Information</h2><p class="mb-4 text-sm text-gray-600">Free shipping on bundles over £70 / €70. Carriers: UPS, PostNL & Royal Mail.</p>`,
-            'returns': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Returns & 60-Day Guarantee</h2><p class="mb-4 text-sm text-gray-600">60-day money-back guarantee for unopened Zenthia products. Contact support@buyzenthia.com.</p>`,
-            'contact': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Customer Service</h2><p class="text-sm text-gray-600">Email: contact@buyzenthia.com. Mon - Fri, 9 am to 6 pm.</p>`
+            'privacy': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Privacy Policy</h2><p class="mb-4 text-sm text-gray-600">Data Controller: FitSmart B.V., Amsterdam, Netherlands. Handled in accordance with GDPR.</p>`,
+            'terms': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Terms & Conditions</h2><p class="mb-4 text-sm text-gray-600">FitSmart B.V. is your contractual partner. Dutch law applies.</p>`,
+            'shipping': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Shipping Information</h2><p class="mb-4 text-sm text-gray-600">UK/IE Delivery: 2-4 days. Free over £70.</p>`,
+            'returns': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Returns & 60-Day Guarantee</h2><p class="mb-4 text-sm text-gray-600">60-day money-back guarantee for unopened Zenthia products.</p>`,
+            'contact': `<h2 class="text-2xl font-bold mb-4 text-brand-accent">Customer Service</h2><p class="text-sm text-gray-600">Email: contact@buyzenthia.com. Mon-Fri, 9 am to 6 pm.</p>`
         };
 
         function openModal(type) {
